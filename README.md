@@ -25,15 +25,49 @@ Each day/chapter includes:
 
 ```
 ml-course-from-scratch/
+│
 ├── ch01-decision-trees/
-│   ├── decision_tree.py
-│   └── en.md
+│   └── (Day 1: Decision Trees)
+│
 ├── ch02-geometry-neighbors/
-│   ├── geometry_knn.py
-│   └── en.md
+│   └── (Day 2: Geometry and Nearest Neighbors)
+│
 ├── ch03-perceptron/
-│   └── ...
-├── ...
+│   └── (Day 3: The Perceptron)
+│
+├── ch04-practical-issues-beyond-binary/
+│   └── (Day 4: Practical Issues + Beyond Binary Classification)
+│
+├── ch05-linear-models/
+│   └── (Day 5: Linear Models)
+│
+├── ch06-probabilistic-modeling/
+│   └── (Day 6: Probabilistic Modeling)
+│
+├── ch07-neural-networks/
+│   └── (Day 7: Neural Networks)
+│
+├── ch08-kernel-methods/
+│   └── (Day 8: Kernel Methods)
+│
+├── ch09-learning-theory/
+│   └── (Day 9: Learning Theory)
+│
+├── ch10-ensemble-efficient-learning/
+│   └── (Day 10: Ensemble Methods + Efficient Learning)
+│
+├── ch11-unsupervised-learning/
+│   └── (Day 11: Unsupervised Learning)
+│
+├── ch12-em-semi-supervised/
+│   └── (Day 12: Expectation Maximization + Semi-Supervised Learning)
+│
+├── ch13-graphical-models-online-learning/
+│   └── (Day 13: Graphical Models + Online Learning)
+│
+├── ch14-structured-bayesian-learning/
+│   └── (Day 14: Structured Learning + Bayesian Learning — جمع‌بندی)
+│
 └── README.md
 ```
 
