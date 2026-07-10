@@ -1,10 +1,9 @@
-# ml-course-from-scratch
+# ML-Course-From-Scratch
 
 ** from-scratch machine learning course — implemented, tested, and benchmarked against scikit-learn.**
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)]()
 [![License](https://img.shields.io/badge/license-educational-lightgrey)]()
-[![Status](https://img.shields.io/badge/progress-2%2F14%20days-yellow)]()
 [![Source](https://img.shields.io/badge/based%20on-A%20Course%20in%20ML-informational)]()
 
 ---
