@@ -85,9 +85,9 @@ ml-course-from-scratch/
 | 1 | Decision Trees | Done |
 | 2 | Geometry & Nearest Neighbors | Done |
 | 3 | The Perceptron | Done |
-| 4 | Practical Issues + Beyond Binary Classification | Pending |
-| 5 | Linear Models | Pending |
-| 6 | Probabilistic Modeling | Pending |
+| 4 | Practical Issues + Beyond Binary Classification | Done |
+| 5 | Linear Models | Done |
+| 6 | Probabilistic Modeling | Done |
 | 7 | Neural Networks | Pending |
 | 8 | Kernel Methods | Pending |
 | 9 | Learning Theory | Pending |
