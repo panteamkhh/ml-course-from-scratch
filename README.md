@@ -91,11 +91,11 @@ ml-course-from-scratch/
 | 7 | Neural Networks | Done |
 | 8 | Kernel Methods | Done |
 | 9 | Learning Theory | Done |
-| 10 | Ensemble Methods + Efficient Learning | Pending |
-| 11 | Unsupervised Learning | Pending |
-| 12 | Expectation Maximization + Semi-Supervised Learning | Pending |
-| 13 | Graphical Models + Online Learning | Pending |
-| 14 | Structured Learning + Bayesian Learning (wrap-up) | Pending |
+| 10 | Ensemble Methods + Efficient Learning | Done |
+| 11 | Unsupervised Learning | Done |
+| 12 | Expectation Maximization + Semi-Supervised Learning | Done |
+| 13 | Graphical Models + Online Learning | Done |
+| 14 | Structured Learning + Bayesian Learning (wrap-up) | Done |
 
 
 ---
