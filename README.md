@@ -88,9 +88,9 @@ ml-course-from-scratch/
 | 4 | Practical Issues + Beyond Binary Classification | Done |
 | 5 | Linear Models | Done |
 | 6 | Probabilistic Modeling | Done |
-| 7 | Neural Networks | Pending |
-| 8 | Kernel Methods | Pending |
-| 9 | Learning Theory | Pending |
+| 7 | Neural Networks | Done |
+| 8 | Kernel Methods | Done |
+| 9 | Learning Theory | Done |
 | 10 | Ensemble Methods + Efficient Learning | Pending |
 | 11 | Unsupervised Learning | Pending |
 | 12 | Expectation Maximization + Semi-Supervised Learning | Pending |
