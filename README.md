@@ -1,108 +1,85 @@
-# ML-Course-From-Scratch
+# ML Course, From Scratch
 
-** from-scratch machine learning course — implemented, tested, and benchmarked against scikit-learn.**
+A 14-day, code-first walkthrough of *A Course in Machine Learning* by Hal Daumé III. The book is theory-only; this repository is what happens when every formula in it gets turned into code that actually runs.
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)]()
 [![License](https://img.shields.io/badge/license-educational-lightgrey)]()
 [![Source](https://img.shields.io/badge/based%20on-A%20Course%20in%20ML-informational)]()
 
----
-
-## Overview
-
-This repository is a structured, 14-day walkthrough of *A Course in Machine Learning* by Hal Daumé III (19 chapters, 193 pages). The book is theory-only and contains no code — every algorithm here is implemented from scratch, tested on a real dataset, and cross-checked against scikit-learn's reference implementation.
-
-Each day/chapter includes:
-
-- A from-scratch Python implementation (no shortcuts through `model.fit()`)
-- Evaluation on a real dataset (never synthetic toy data)
-- A correctness check against the equivalent scikit-learn model
-- A written companion guide (`en.md`) covering theory, code walkthrough, and exercises
+<p align="center">
+  <img src="assets/roadmap.png" alt="14-day roadmap" width="480">
+</p>
 
 ---
 
-## Repository Structure
+## What this is
+
+Each day covers one chapter and follows the same pattern:
+
+- A **from-scratch implementation** in plain NumPy — no `model.fit()` shortcuts
+- Evaluation on a **real dataset**, never synthetic toy data
+- A **correctness check** against the equivalent scikit-learn model
+- A **companion guide** (`en.md`) — theory, code walkthrough, exercises
+- A **notebook** (`notebooks/`) — the same material, self-contained and runnable end to end
+
+## Where to start
+
+New here? Read in order:
+
+1. `notebooks/ch01-decision-trees.ipynb` — the shortest path to understanding the shape of every chapter that follows
+2. `ch01-decision-trees/en.md` — same material, in write-up form
+3. Pick your own path after that — chapters build on each other loosely, but each stands on its own
+
+If you just want to *run* something: open any notebook and execute it top to bottom.
+
+---
+
+## Repository structure
 
 ```
 ml-course-from-scratch/
 │
+├── assets/
+│   └── roadmap.png
+│
+├── notebooks/                              self-contained .ipynb per chapter
+│   ├── ch01-decision-trees.ipynb
+│   ├── ch02-geometry-neighbors.ipynb
+│   ├── ...
+│   └── ch14-structured-bayesian-learning.ipynb
+│
 ├── ch01-decision-trees/
-│   └── (Day 1: Decision Trees)
-│
 ├── ch02-geometry-neighbors/
-│   └── (Day 2: Geometry and Nearest Neighbors)
-│
 ├── ch03-perceptron/
-│   └── (Day 3: The Perceptron)
-│
 ├── ch04-practical-issues-beyond-binary/
-│   └── (Day 4: Practical Issues + Beyond Binary Classification)
-│
 ├── ch05-linear-models/
-│   └── (Day 5: Linear Models)
-│
 ├── ch06-probabilistic-modeling/
-│   └── (Day 6: Probabilistic Modeling)
-│
 ├── ch07-neural-networks/
-│   └── (Day 7: Neural Networks)
-│
 ├── ch08-kernel-methods/
-│   └── (Day 8: Kernel Methods)
-│
 ├── ch09-learning-theory/
-│   └── (Day 9: Learning Theory)
-│
 ├── ch10-ensemble-efficient-learning/
-│   └── (Day 10: Ensemble Methods + Efficient Learning)
-│
 ├── ch11-unsupervised-learning/
-│   └── (Day 11: Unsupervised Learning)
-│
 ├── ch12-em-semi-supervised/
-│   └── (Day 12: Expectation Maximization + Semi-Supervised Learning)
-│
 ├── ch13-graphical-models-online-learning/
-│   └── (Day 13: Graphical Models + Online Learning)
-│
 ├── ch14-structured-bayesian-learning/
-│   └── (Day 14: Structured Learning + Bayesian Learning — جمع‌بندی)
 │
 └── README.md
 ```
 
+Each chapter folder contains:
+
 | File | Purpose |
 |---|---|
-| `*.py` | From-scratch implementation + experiments on real data |
-| `en.md` | Companion write-up: learning objectives, concept, build steps, exercises |
+| `*.py` | From-scratch implementation, run as a script, with experiments on real data |
+| `en.md` | Companion write-up — objectives, concept, build steps, exercises |
+
+`notebooks/` mirrors the same content in one interactive file per chapter, for reading rather than running from the terminal.
 
 ---
 
-## Course Schedule
+## Philosophy
 
-| Day | Chapter(s) | Status |
-|:---:|---|:---:|
-| 1 | Decision Trees | Done |
-| 2 | Geometry & Nearest Neighbors | Done |
-| 3 | The Perceptron | Done |
-| 4 | Practical Issues + Beyond Binary Classification | Done |
-| 5 | Linear Models | Done |
-| 6 | Probabilistic Modeling | Done |
-| 7 | Neural Networks | Done |
-| 8 | Kernel Methods | Done |
-| 9 | Learning Theory | Done |
-| 10 | Ensemble Methods + Efficient Learning | Done |
-| 11 | Unsupervised Learning | Done |
-| 12 | Expectation Maximization + Semi-Supervised Learning | Done |
-| 13 | Graphical Models + Online Learning | Done |
-| 14 | Structured Learning + Bayesian Learning (wrap-up) | Done |
-
-
----
-
-## Project Philosophy
-
-The source book is theory-first and code-free. The goal of this repository is to translate every formula and algorithm into runnable, readable code — so that running a single script both reinforces the underlying concept and verifies correctness against an established library.
+The source book is theory-first and code-free. This repository exists to close that gap: translate every formula and algorithm into readable code, so that running a single script both reinforces the concept and verifies it against an established library.
 
 ---
 
@@ -112,4 +89,4 @@ Hal Daumé III — *A Course in Machine Learning* — [ciml.info](http://ciml.in
 
 ## License
 
-This repository is intended for educational purposes only.
+Educational use only.
