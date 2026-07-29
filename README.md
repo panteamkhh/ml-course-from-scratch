@@ -7,7 +7,7 @@ A 14-day, code-first walkthrough of *A Course in Machine Learning* by Hal Daumé
 [![Source](https://img.shields.io/badge/based%20on-A%20Course%20in%20ML-informational)]()
 
 <p align="center">
-  <img src="D:\portfolio\ML book - git\ml-course-from-scratch" alt="14-day roadmap" width="480">
+  <img src="assets/roadmap.png" alt="14-day roadmap" width="480">
 </p>
 
 ---
